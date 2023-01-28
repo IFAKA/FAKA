@@ -35,6 +35,7 @@ const ProjectStylish = ({ project, i }: { project: IProject; i: number }) => {
             <h1 className="text-lg font-semibold">{name}</h1>
             <div className="flex">
               <motion.a
+                aria-label={`Code of ${name}`}
                 className="flex flex-col justify-between h-full p-3 border rounded-full shadow cursor-pointer dark:border-none hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700"
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -55,6 +56,7 @@ const ProjectStylish = ({ project, i }: { project: IProject; i: number }) => {
               </motion.a>
               {site && (
                 <motion.a
+                  aria-label={`Website of ${name}`}
                   className="flex flex-col justify-between h-full p-3 ml-2 border rounded-full shadow cursor-pointer dark:border-none hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.98 }}
