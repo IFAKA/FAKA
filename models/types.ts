@@ -1,3 +1,7 @@
+export interface IStyleCtx {
+  isStyled: boolean;
+  setIsStyled: React.Dispatch<React.SetStateAction<boolean>>;
+}
 export interface IProject {
   id: number;
   code: string;

@@ -1,8 +1,4 @@
-- [ ] replace this with react version
-- [ ] split href into code and site
-- [ ] modify formatApi and types
 - [ ] add eslint, airbnb rules, husky, lint-staged and prettier
-- [ ] keep it the minimum
 - [ ] check if you can migrate to preact instead of nextjs (in case of single page or research about pagination)
 - [ ] add auto language translation (do research about it)
 - [ ] make it appealing but without animation or flashy things, use content and be concise on UX and UI
