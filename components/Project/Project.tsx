@@ -7,14 +7,14 @@ import { ArrowSquareOut } from "phosphor-react";
 const Project = ({ project }: { project: IProject }) => {
   const { code, site, name, desc, tags } = project;
   return (
-    <tr className="border-b dark:border-none odd:bg-slate-100 dark:odd:bg-neutral-900">
+    <tr className="border-b shadow dark:border-neutral-800">
       <td className="px-2">
         <Link
           href={code}
           title={`${name}'s code`}
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:underline text-blue-600 dark:text-blue-400 visited:text-purple-600 dark:visited:text-purple-400 mb-0.5 font-semibold"
+          className="hover:underline text-blue-600 visited:text-purple-600 mb-0.5 font-semibold"
         >
           {name}
         </Link>

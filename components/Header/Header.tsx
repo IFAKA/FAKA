@@ -12,6 +12,7 @@ const Header = () => {
       <h1 className="p-3 text-xl font-bold leading-4">FAKA</h1>
       <div className="absolute right-0 flex items-center mr-2">
         <button
+          aria-label="Free the styles"
           onClick={handleChange}
           className={`${
             !isStyled && "animate-pulse bg-neutral-200 dark:bg-neutral-800"
